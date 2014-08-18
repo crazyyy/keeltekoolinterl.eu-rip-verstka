@@ -1,0 +1,236 @@
+<?php get_header(); ?>
+
+
+    <section id="hero" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/header7.JPG);background-position: center 0;">
+    <div class="inner">
+        <div class="wrap">
+            <div class="ctaArea" style="display:block;">
+                <h1><strong>Vali keel</strong>, mida soovid õppida</h1>
+                <p>
+                    Multilingua keeltekoolis saad õppida paindlikult ja tulemuslikult <a href="http://multilingua.ee/keelekursused/">15 keelt</a> <br><a href="http://multilingua.ee/oppevormid/">kaheksas õppevormis</a>.<br>Palun vali siit keel, mida soovid õppida ja tutvu kursustega.                 </p>
+          
+                <button type="button" class="btn btn-large btn-green">VAATA KURSUSEID</button>
+            </div>
+            <div class="kalender-nimekiri">
+                <h3 class="titleArea">ALGAVAD KURSUSED</h3>
+                <ul>
+                    <li>
+                        <div class="date">11<span>08.2014</span></div>
+                        <div class="desc">
+                            <p class="tase"><strong>Vene keele kursused</strong></p>
+                            <p><strong>Suhtluskeele intensiivkursus (24 tundi)</strong><br>A1.1 - Algtase</p>
+                            <a href="http://multilingua.ee/kursus/suhtluskeele-intensiivkursus-24-tundi-25/?lang=vene-keele-kursused&langLevel=a1-1" class="btn btn-block btn-green">REGISTREERU KURSUSELE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">10<span>09.2014</span></div>
+                        <div class="desc">
+                            <p class="tase"><strong>Itaalia keele kursused</strong></p>
+                            <p><strong>Suhtluskeele kursus (50 tundi)</strong><br>A1.1 - Algtase</p>
+                            <a href="http://multilingua.ee/kursus/suhtluskeele-kursus-50-tundi-5/?lang=itaalia-keele-kursused&langLevel=a1-1" class="btn btn-block btn-green">REGISTREERU KURSUSELE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">10<span>09.2014</span></div>
+                        <div class="desc">
+                            <p class="tase"><strong>Hollandi keele kursused</strong></p>
+                            <p><strong>Suhtluskeele kursus (50 tundi)</strong><br>A1.1 - Algtase</p>
+                            <a href="http://multilingua.ee/kursus/suhtluskeele-kursus-50-tundi-4/?lang=hollandi-keele-kursused&langLevel=a1-1" class="btn btn-block btn-green">REGISTREERU KURSUSELE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+</header><!-- begin #soorita-test -->
+
+<section id="soorita-test" class="bg-gray padding-90">
+    <div class="wrap">
+        <h1>Testi oma keeleoskust</h1>
+        <p>Soorita keeletest ja saad teada, millise keeletasemega kursus endale valida. Keeletesti sooritamine enne kursuse algust tagab keeleõppijate ühtlasema taseme grupis. See annab keelekursusele parima tulemuslikkuse.</p>
+        <a href="http://multilingua.ee/keeletestid/" class="btn btn-large btn-green">SOORITA KEELETEST</a>
+    </div>
+</section>
+<!-- end #soorita-test -->    <!-- begin #kogemus-->
+    <section id="kogemus" class="bg-white border-top border-bottom padding-90">
+        <div class="wrap" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/20a-est.jpg')">
+            <h1>Multilingua keeltekool</h1>
+            <p>Multilingua on täiskasvanutele&nbsp; keelekursuseid pakkunud alates aastast 1994. <strong>Tänaseks oleme üks juhtivaid keeltekoole Tallinnas.</strong></p>
+            <p>Keeleõpe meie kursustel toimub paindlikult, väikestes gruppides, mõnusas õhkkonnas ja mugavas asukohas kesklinnas. <strong>Multilingua keelekursustel&nbsp; arendatakse kõiki keele osaoskusi, kuid põhirõhk on suhtluskeele praktiseerimisel.</strong></p>
+
+            <script type="text/javascript">/* <![CDATA[ */
+	var _smartad = _smartad || new Object(); _smartad.page_id=Math.floor(Math.random()*10000001);
+	if(!_smartad.prop) {  _smartad.prop='screen_width='+(document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth)+decodeURIComponent('%26screen_height=')+(document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight)+decodeURIComponent('%26os=')+navigator.platform+decodeURIComponent('%26refurl=')+encodeURIComponent(document.referrer||'')+decodeURIComponent('%26pageurl=')+encodeURIComponent(document.URL||'')+decodeURIComponent('%26rnd=')+ new Date().getTime(); }
+	(function() {
+		if (_smartad.space){
+			_smartad.space += ',e40bb8d2-22d9-4b0d-8e7a-308345ec0b76';
+		}else{
+			_smartad.space = 'e40bb8d2-22d9-4b0d-8e7a-308345ec0b76';
+			_smartad.type='onload';
+			var f=function(){
+				var d = document, b = d.body || d.documentElement || d.getElementsByTagName('BODY')[0],n = b.firstChild, s = d.createElement('SCRIPT');
+				s.type = 'text/javascript',s.language = 'javascript',s.async = true,s.charset='UTF-8';
+				s.src=location.protocol+'//serving.bepolite.eu/script?space='+_smartad.space+decodeURIComponent('%26type=')+_smartad.type+decodeURIComponent('%26page_id=')+_smartad.page_id+decodeURIComponent('%26')+_smartad.prop;
+				n?b.insertBefore(s, n):b.appendChild(s);
+			};
+			if(document.readyState==='complete'){
+				f();
+				delete _smartad.space;
+			}else{
+				if(window.addEventListener){ 
+					window.addEventListener('load',f,false);
+				}else if(window.attachEvent){
+					window.attachEvent('onload',f);
+				}
+			}
+		}
+	})();
+/* ]]&gt; */</script>
+</div>
+    </section>
+    <!-- end #kogemus-->
+
+<!-- begin #kliendid-meist -->
+<section id="kliendid-meist" class="bg-gray padding-90">
+    <div class="wrap">
+        <h1>Loe, mida räägivad meie kliendid</h1>
+
+        <div class="sliderHolder">
+            <ul class="slides" style="height: 290px; position: relative; overflow: hidden;" id="testSlider">
+                <li style="position: absolute; top: 0px; left: 0px; display: list-item; z-index: 3; opacity: 1;">
+                            <!-- begin .block-grid -->
+                            <ul class="block-grid three-up clearfix">
+                                                                <li>
+                                    <a href="http://multilingua.ee/testimonials/eve-limbach-pirn-est/" class="quote" title="Multilingua on Riigikantselei tippjuhtide kompetentsikeskuse koostööpartner olnud juba mitu hooaega pakkudes Eesti avaliku teenistuse tippjuhtidele nii individuaalset keeleõpet kui koostöös oma heade partneritega Euroopast keeleõppevõimalusi keelekeskkonnas. Aitäh teile mitmekesiste võimaluste pakkumise ja heade õpetajate eest! Aitäh paindliku ja professionaalse koostöö eest!">Multilingua on Riigikantselei tippjuhtide kompetentsikeskuse koostööpartner olnud juba mitu hooaega pakkudes Eesti avaliku teenist... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="77" height="77" src="<?php echo get_template_directory_uri(); ?>/img/eve-77x77.png" class="attachment-testimonials wp-post-image" alt="eve">                                        <h4>Eve Limbach-Pirn</h4>
+                                        <span>Riigikantselei tippjuhtide kompetentsikeskuse juhataja</span>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="http://multilingua.ee/testimonials/333-2/" class="quote" title="Multilingua on Skype’i hea partner juba mitu aastat, aidates meie töötajatel paremini Eestisse integreeruda. Nimelt on võimalik kõigil Skype’s töötavatel välismaalastel ( ja neid on 39-st riigist) õppida meie kontoris korraldatavatel kursustel eesti keelt. Need eesti keele tunnid on kujunenud suureks hitiks, kohad täituvad alati väga kiiresti. Tagasiside nii õpetajate kui õppijate kohta on alati suurepärane.">Multilingua on Skype’i hea partner juba mitu aastat, aidates meie töötajatel paremini Eestisse integreeruda. Nimelt on võimalik kõ... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="77" height="77" src="<?php echo get_template_directory_uri(); ?>/img/astra1-77x77.png" class="attachment-testimonials wp-post-image" alt="astra">                                        <h4>Astra Tälli</h4>
+                                        <span>Skype, personalispetsialist</span>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="http://multilingua.ee/testimonials/veronika-oras/" class="quote" title="Multilingua on üks väheseid keeleõppefirmasid Eestis, kes suudab pakkuda keeleõpet suurele arvule gruppidele. Õpetajad on kompetentsed ning arvestavad õppijate vajaduste ja eripäradega. Oluline on Multilingua paindlikkus ja vastutulelikkus keeleõppe toimumisaegade osas. Lisaks võiks esile tõsta info liikumise kiiruse ja operatiivse tegutsemise. Koostöö on alati ladusalt sujunud.">Multilingua on üks väheseid keeleõppefirmasid Eestis, kes suudab pakkuda keeleõpet suurele arvule gruppidele. Õpetajad on kompeten... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="76" height="77" src="<?php echo get_template_directory_uri(); ?>/img/veroonika.png" class="attachment-testimonials wp-post-image" alt="veroonika">                                        <h4>Veronika Oras</h4>
+                                        <span>Koolituskoordinaator, Swedbank Akadeemia Eestis</span>
+                                    </div>
+                                </li>
+                                                            </ul>
+                            <!-- end .block-grid -->
+                        </li>
+                                            <li style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+                            <!-- begin .block-grid -->
+                            <ul class="block-grid three-up clearfix">
+                                <li>
+                                    <a href="http://multilingua.ee/testimonials/liina-hindremae/" class="quote" title="Koostöö Multilinguaga on SEB Pangal olnud meeldiv ja pikaajaline. Kõige rohkem meeldib Multilingua vastutulelikkus ja paindlikkus sobiva keeleõpetaja leidmisel. Soovitan Multilinguat keeltekoolina ka teistele ettevõtetele, kelle jaoks on oluline paindlikkus, kiirus organiseerimisel, lai valik õpitavaid keeli ning õpetajaid.">Koostöö Multilinguaga on SEB Pangal olnud meeldiv ja pikaajaline. Kõige rohkem meeldib Multilingua vastutulelikkus ja paindlikkus&nbsp;... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="77" height="77" src="<?php echo get_template_directory_uri(); ?>/img/liina1-77x77.png" class="attachment-testimonials wp-post-image" alt="liina">                                        <h4>Liina Hindremäe</h4>
+                                        <span>Koolitusspetsialist, SEB Pank</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="http://multilingua.ee/testimonials/urve-gromov/" class="quote" title="Meie koostööprojektide põhjal võin öelda, et Multilinguat iseloomustavad tähelepanelik ja sõbralik suhtumine nii koostööpartnerisse kui ka õppijatesse, head õpetajad, kaasaegsed õppematerjalid, õppetöö tulemuslikkus ja õppijate positiivne tagasiside. Tänu õpetajate toetavale suhtumisele ja heale meeskonnatööle said õppijad juurde enesekindlust, mitmed kursused lõpetanud said tänu paranenud keeleoskusele tööd ning leidsid motivatsiooni keeleeksami sooritamiseks.">Meie koostööprojektide põhjal võin öelda, et Multilinguat iseloomustavad tähelepanelik ja sõbralik suhtumine nii koostööpartneriss... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="77" height="77" src="<?php echo get_template_directory_uri(); ?>/img/urve2-77x77.png" class="attachment-testimonials wp-post-image" alt="urve">                                        <h4>Urve Gromov</h4>
+                                        <span>Rahvakultuuri Keskuse Arendus- ja koolitusosakonna juhataja</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="http://multilingua.ee/testimonials/merli-uusmaa/" class="quote" title="Tallinna Linnakantseleil on olnud väga hea ja sujuv koostöö Multilingua Keelekeskusega. Hindame koostööpartneri paindlikkust ja vastutulelikkust. Keelekursustel osalejad hindavad keelekeskuse õpetajate professionaalsust.">Tallinna Linnakantseleil on olnud väga hea ja sujuv koostöö Multilingua Keelekeskusega. Hindame koostööpartneri paindlikkust ja va... <span>Loe&nbsp;edasi</span></a>
+                                    <div class="author clearfix">
+                                        <img width="77" height="77" src="<?php echo get_template_directory_uri(); ?>/img/merili1-77x77.png" class="attachment-testimonials wp-post-image" alt="merili">                                        <h4>Merli Uusmaa</h4>
+                                        <span>Tallinna Linnakantselei personali arendamise osakonna peaspetsialist </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- end .block-grid -->
+                        </li>
+                                </ul>
+                        <div class="pagination" id="testNavi">
+                <ul class="clearfix">
+                    <li class="current-item"><a href="http://multilingua.ee/#">1</a></li><li><a href="http://multilingua.ee/#">2</a></li>                </ul>
+            </div>
+                    </div>
+    </div>
+</section>
+<!-- end #kliendid-meist -->    <!-- begin #registreeri -->
+    <section id="registreeri" class="bg-gray padding-90">
+        <div class="wrap sep"></div>
+        <div class="wrap">
+            <div class="box box-orange">
+                <h1>Registreeru kursusele ning tule ja täienda enda keeleoskust.</h1>
+
+                <p>Keelekursustele registreerumine on lihtne ja mugav. Vali endale sobiv kursus, täida ära registreerimisankeet ning võtame Sinuga peagi ühendust. </p>
+                <a href="http://multilingua.ee/keelekursused/" class="btn btn-large btn-green">REGISTREERU KURSUSELE</a>
+            </div>
+        </div>
+    </section>
+    <!-- end #registreeri -->
+<!-- begin #bottomArea -->
+<section id="bottomArea">
+    <div class="wrap">
+        <ul class="block-grid three-up clearfix">
+            <li>
+                <h2>Keeltekool</h2>
+                <ul id="menu-keelekesuks-1" class="submenu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3225"><a href="http://multilingua.ee/keeletestid/inglise-keele-test/">Keeletestid</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://multilingua.ee/blog/">Uudised</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="http://multilingua.ee/keelekursused/">Keelekursused</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://multilingua.ee/oppevormid/">Õppevormid</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://multilingua.ee/arikliendile/">Ärikliendile</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://multilingua.ee/hinnakiri/">Hinnakiri</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://multilingua.ee/opetajatest/">Keeltekoolist</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://multilingua.ee/kontaktid/">Kontaktid</a></li>
+</ul>            </li>
+            <li>
+                <h2>Tõlkebüroo</h2>
+                <ul id="menu-tolkeburoo-uudised" class="submenu"><li id="menu-item-145" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-145"><a href="http://multilingua.ee/category/tolkeburoo-uudised/">Uudised</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-tolkeburoo menu-item-59"><a href="http://multilingua.ee/tolkeburoo/teenused/">Teenused</a></li>
+<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-tolkeburoo menu-item-56"><a href="http://multilingua.ee/tolkeburoo/hinnakiri-2/">Hinnakiri</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-tolkeburoo menu-item-55"><a href="http://multilingua.ee/tolkeburoo/toopakkumised/">Tööpakkumised</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-tolkeburoo menu-item-54"><a href="http://multilingua.ee/tolkeburoo/tolkeburoost/">Tõlkebüroost</a></li>
+<li id="menu-item-1187" class="menu-item menu-item-type-post_type menu-item-object-tolkeburoo menu-item-1187"><a href="http://multilingua.ee/tolkeburoo/kontakt/">Kontaktid</a></li>
+</ul>            </li>
+            <li>
+                <h2> Kontakt</h2>
+
+                <p class="color-white">Pärnu mnt 16, 10141 Tallinn</p>
+
+                <p>Keeltekool: Tel. +372 640 8540<br>
+                    info@multilingua.ee</p>
+
+                <p>Tõlkebüroo: Tel +372 640 8544<br>
+                    tolge@multilingua.ee</p>
+
+                <div id="join-newsletter" class="clearfix">
+                    <form class="container" action="https://multilingua.sendsmaily.net/api/opt-in/" method="post">
+                        <input type="hidden" name="key" value="9aBiSfzLpc285SXF439E6jWzcchY-0yXbH8Z5bbMqD4,">
+                        <input type="hidden" name="autoresponder" value="33">
+                        <input type="hidden" name="oppijad" value="jah">
+                        <input type="hidden" name="list" value="kodulehelt">
+                        <label for="email">Liitu uudiskirjaga ja saad (keeltekooli) uudised, pakkumised ja keeleõppesoovitused otse oma postkasti. </label>
+                        <input type="text" id="email" class="input-newsletter" name="email" placeholder="Sisesta enda e-posti aadress ...">
+                        <input type="submit" value="LIITUN" class="btn btn-green">
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- end #bottomArea -->
+	
+	<?php wp_footer(); ?>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/prettyCheckable.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.masonry.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.placeholder.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cycle.all.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+</body>
+</html>
