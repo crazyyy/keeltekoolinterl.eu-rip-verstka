@@ -40,8 +40,8 @@
                 <a href="/" id="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-multilingua-et.png" width="220" height="41" alt=""></a>
 
                 <div class="contactArea">
-                    <p class="phone"><strong>Телефон:</strong> (+372) 51 61 1730 </p>
-                    <p class="email"><strong>Email:</strong> <a href="mailto:mail@mail.ru">mail@mail.ru</a> </p>
+                    <p class="phone"><strong>Телефон:</strong> (+372) 51 61 173 </p>
+                    <p class="email"><strong>Э-почта:</strong> <a href="mailto:info@keeltekoolinterl.eu">info@keeltekoolinterl.eu</a> </p>
      
                 </div>
                 
