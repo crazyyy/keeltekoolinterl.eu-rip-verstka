@@ -1,8 +1,9 @@
 html,button,input,select,textarea {
 color:#2e2e2e
 }
+
 body {
-	font-size:1.2em;
+	font-size:1em;
 	line-height:1.4;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -48,7 +49,7 @@ padding:.2em 0
 }
 
 a {
-color:#e5520b;
+color:#2543d1;
 text-decoration:underline
 }
 
@@ -62,7 +63,7 @@ text-decoration:none
 }
 
 h1 {
-color:#e5520b;
+color:#2543d1;
 font-weight:400;
 font-size:36px;
 line-height:1.1em;
@@ -123,7 +124,7 @@ vertical-align:top
 header #navbar .white .contactArea {
 	display:inline-block;
 	margin:0 0 0 38px;
-	padding:23px 0 23px 30px;
+	padding:23px 0 23px 110px;
 	position:absolute;
 	left:555px
 }
@@ -214,9 +215,9 @@ color:#fff
 
 header #navbar nav {
 height:51px;
-border-top:2px solid #e5520b;
+border-top:2px solid #5270fc;
 width:980px;
-background:#ef7d00;
+background:#2543d1;
 z-index:50;
 position:relative;
 font-size:14px
@@ -258,7 +259,7 @@ position:absolute;
 top:50%;
 right:0;
 content:"";
-border-right:1px solid #f6a54d;
+border-right:1px solid #ffffff;
 height:30px;
 margin-top:-15px
 }
@@ -274,7 +275,7 @@ display:none
 }
 
 header #navbar nav > ul > li.current_page_item > a,header #navbar nav > ul > li.current_page_ancestor > a {
-background:#e5520b;
+background:#5770e6;
 margin-left:-1px;
 padding-left:16px
 }
@@ -284,7 +285,7 @@ display:none
 }
 
 header #navbar nav > ul > li:hover a {
-background:#e5520b;
+background:#5770e6;
 margin-left:-1px;
 padding-left:16px
 }
@@ -497,7 +498,7 @@ header #hero .kalender-nimekiri h3,
 -moz-border-radius:5px 5px 0 0;
 border-radius:5px 5px 0 0;
 position:relative;
-background:#ef7d00;
+background:#2543d1;
 color:#fff;
 font-weight:700;
 font-size:14px;
@@ -552,7 +553,7 @@ width:100%;
 display:block;
 height:28px;
 line-height:28px;
-background:#e5520b;
+background:#000000;
 text-align:center;
 color:#fff;
 font-size:13px
@@ -605,7 +606,7 @@ margin:10px
 
 .home #hero {
 	padding-top:190px;
-	height:560px
+	height:610px
 }
 
 .home #hero .inner {
@@ -1676,8 +1677,9 @@ background:#c3d1dc
 }
 
 #bottomArea {
-	padding: 30px 0;
-	background:#282828
+padding:50px 0;
+background:#282828;
+padding-bottom: 0px;
 }
 
 #bottomArea h2 {
@@ -2389,28 +2391,28 @@ padding-right:0
 }
 
 .btn.btn-green,.btn#submit,.btn.gform_button,input[type="submit"].btn-green,input[type="submit"]#submit,input[type="submit"].gform_button {
-background-color:#a5bf58;
-background-image:-moz-linear-gradient(#a5bf58,#99b14f);
-background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#a5bf58),to(#99b14f));
-background-image:-webkit-linear-gradient(#a5bf58,#99b14f);
-background-image:-o-linear-gradient(#a5bf58,#99b14f);
-background-image:linear-gradient(to bottom,#a5bf58,#99b14f);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5bf58',endColorstr='#99b14f');
--webkit-box-shadow:inset 0 1px 0 #c6db85;
--moz-box-shadow:inset 0 1px 0 #c6db85;
-box-shadow:inset 0 1px 0 #c6db85;
-border:1px solid #99b14f;
+background-color:#2543d1;
+background-image:-moz-linear-gradient(#2543d1,#699df5);
+background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#2543d1),to(#699df5));
+background-image:-webkit-linear-gradient(#2543d1,#699df5);
+background-image:-o-linear-gradient(#2543d1,#699df5);
+background-image:linear-gradient(to bottom,#2543d1,#699df5);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2543d1',endColorstr='#699df5');
+-webkit-box-shadow:inset 0 1px 0 #2543d1;
+-moz-box-shadow:inset 0 1px 0 #2543d1;
+box-shadow:inset 0 1px 0 #2543d1;
+border:1px solid #90a1ef;
 color:#fff!important
 }
 
 .btn.btn-green:hover,.btn#submit:hover,.btn.gform_button:hover,input[type="submit"].btn-green:hover,input[type="submit"]#submit:hover,input[type="submit"].gform_button:hover {
-background-color:#99b14f;
-background-image:-moz-linear-gradient(#99b14f,#99b14f);
-background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#99b14f),to(#99b14f));
-background-image:-webkit-linear-gradient(#99b14f,#99b14f);
-background-image:-o-linear-gradient(#99b14f,#99b14f);
-background-image:linear-gradient(to bottom,#99b14f,#99b14f);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#99b14f',endColorstr='#99b14f')
+background-color:#90a1ef;
+background-image:-moz-linear-gradient(#90a1ef,#699df5);
+background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#90a1ef),to(#699df5));
+background-image:-webkit-linear-gradient(#90a1ef,#699df5);
+background-image:-o-linear-gradient(#90a1ef,#699df5);
+background-image:linear-gradient(to bottom,#90a1ef,#699df5);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#90a1ef',endColorstr='#699df5')
 }
 
 .btn.btn-green:focus,.btn.btn-green:active,.btn#submit:focus,.btn#submit:active,.btn.gform_button:focus,.btn.gform_button:active,input[type="submit"].btn-green:focus,input[type="submit"].btn-green:active,input[type="submit"]#submit:focus,input[type="submit"]#submit:active,input[type="submit"].gform_button:focus,input[type="submit"].gform_button:active {
@@ -3011,12 +3013,12 @@ text-decoration:none
 }
 
 .btn-red {
-width:220px;
+width:290px;
 margin:10px auto;
 background-color:#fff;
 padding:5px 15px;
 display:block;
-border:5px solid red;
+border:3px solid #2543d1;
 border-radius:10px;
 font-size:16px!important;
 -webkit-transition:all .5s;
@@ -3070,8 +3072,7 @@ float:left
 	height:685px;
 }
 .gmap_addon {
-	background-image: none !important;
-	border-bottom: 0 !important;
+	
 }
 .gmap_addon .wrap{
 	position: relative;
@@ -3084,7 +3085,7 @@ float:left
 	left: 0px;
 	top: 25px;
 	width: 275px;
-	height: 305px;
+	height: 535px;
 	background-color: #fff;
 	z-index: 20;
 }
@@ -3094,7 +3095,7 @@ float:left
 	padding: 5px 0;
 }
 .gmap_addon .wrap .contact-widget .contact-bar {
-	padding: 0px 15px 15px 15px;
+	padding: 15px;
 }
 .gmap_addon .wrap .contact-widget {
 	
@@ -3140,41 +3141,30 @@ float:left
 .contact-bar {
 }
   
+.emodal .wpcf7 br,
 .contact-bar .wpcf7 br{
     display: none;
 }
   
+.emodal .item,
+.emodal .wpcf7-form-control-wrap,
 .contact-bar .item,
 .contact-bar .wpcf7-form-control-wrap{
-    margin-bottom: 2px;
+    padding: 2px 0;
+    margin-bottom: 9px;
     display: block;
   
-    border-left: 2px solid #843e75;
-    padding: 2px 0;
+    border-left: 2px solid #2543d1;
 }
-.contact-bar p {
-	/* margin: 0; */
-}
-.contact-bar .choise {
-	color: #454545;
-	font-size: 12px;
-	font-weight: bold;
-	margin-bottom: 5px;
-	margin-left: 20px;
-}
-.contact-bar .wpcf7-select {
-	width: 240px;
-	color: #454545;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 0 15px;
-	height: 30px;
-}
+.emodal .item input[type="text"],
+.emodal .item input[type="email"],
+.emodal .wpcf7-form-control-wrap input[type="text"],
+.emodal .wpcf7-form-control-wrap input[type="email"],
 .contact-bar .item input[type="text"],
 .contact-bar .item input[type="email"],
 .contact-bar .wpcf7-form-control-wrap input[type="text"],
 .contact-bar .wpcf7-form-control-wrap input[type="email"]{
-    width: 210px;
+    width: 160px;
     height: 28px;
     padding: 0 15px;
       
@@ -3186,6 +3176,10 @@ float:left
     font-weight: bold;
     line-height: 30px;
 }
+.emodal .item input[type="text"]:focus,
+.emodal .item input[type="email"]:focus,
+.emodal .wpcf7-form-control-wrap input[type="text"]:focus,
+.emodal .wpcf7-form-control-wrap input[type="email"]:focus,
 .contact-bar .item input[type="text"]:focus,
 .contact-bar .item input[type="email"]:focus,
 .contact-bar .wpcf7-form-control-wrap input[type="text"]:focus,
@@ -3197,19 +3191,23 @@ float:left
     border-radius: 0 2px 2px 0;
     outline: none;
 }
+.emodal .item textarea,
+.emodal .wpcf7-form-control-wrap textarea,
 .contact-bar .item textarea,
 .contact-bar .wpcf7-form-control-wrap textarea {
-    width: 240px;
-    padding: 7px 0 7px 15px !important;
+    width: 175px;
+    padding: 7px 0 7px 15px;
       
     border: 1px solid #dedede;
     border-left: 0;
+      
+    color: #454545;
+    font-size: 12px;
+    font-weight: bold;
     line-height: 16px;
-    height: 120px !important;
-    	color: #454545;
-	font-size: 12px !important;
-	font-weight: bold !important;
 }
+.emodal .item textarea:focus,
+.emodal .wpcf7-form-control-wrap textarea:focus,
 .contact-bar .item textarea:focus,
 .contact-bar .wpcf7-form-control-wrap textarea:focus {
     padding: 6px 0 6px 15px;
@@ -3261,11 +3259,18 @@ float:left
     height: auto;
 }
   
+.emodal .wpcf7-submit,
 .contact-bar .wpcf7-submit {
     float: right;
     width: 150px;
 }
   
+.emodal .item input[type="text"].error,
+.emodal .item input[type="email"].error,
+.emodal .item textarea.error,
+.emodal .wpcf7-form-control-wrap input[type="text"].wpcf7-not-valid,
+.emodal .wpcf7-form-control-wrap input[type="email"].wpcf7-not-valid,
+.emodal .wpcf7-form-control-wrap textarea.wpcf7-not-valid,
 .contact-bar .item input[type="text"].error,
 .contact-bar .item input[type="email"].error,
 .contact-bar .item textarea.error,
@@ -3275,11 +3280,15 @@ float:left
     border-color: #fc0202;
 }
   
+.emodal input::-webkit-input-placeholder,
+.emodal textarea::-webkit-input-placeholder,
 .contact-bar input::-webkit-input-placeholder,
 .contact-bar textarea::-webkit-input-placeholder {
     color: #454545;
     opacity: 1;
 }
+.emodal input:-moz-placeholder,
+.emodal textarea:-moz-placeholder, /* Firefox 18- */
 .contact-bar input:-moz-placeholder,
 .contact-bar textarea:-moz-placeholder { /* Firefox 18- */
     color: #454545;
@@ -3296,6 +3305,7 @@ float:left
     opacity: 1;
 }
   
+.emodal .action,
 .contact-bar .action {
     float: right;
     width: 150px;
@@ -3306,6 +3316,7 @@ float:left
     font-style: italic;
     line-height: 13px;
 }
+.emodal .action .button,
 .contact-bar .action .button {
     width: 100%;
     margin-bottom: 7px;
@@ -3326,46 +3337,21 @@ body div.wpcf7-mail-sent-ok {
     padding: 0;
     font-weight: bold;
 }
-
-#easy_racebook_likebox-2 {
-	height: 185px;
-	overflow: hidden;
+.emodal span{
+	margin: 0 !important;
+	font-size: 14px;
+	font-weight: normal;
 }
-
-.emodal.custom-position {
-	width: 305px !important;
-	overflow: hidden;
-	padding: 10px !important;
-	height: 480px !important;
+.emodal .choise {
+	padding-left: 15px;
+	/* text-transform: capitalize; */
 }
-.emodal.custom-position input,
-.emodal.custom-position select,
-.emodal.custom-position textarea {
-	width: 270px;
-	padding: 5px 15px;
-	margin-bottom: 5px !important;
+.emodal select {
+	/* text-transform: capitalize; */
+}
+.emodal input,
+.emodal textarea,
+.emodal select {
+	font-weight: normal !important;
 	font-size: 12px !important;
-	font-weight: bold !important;
-	color: #A9A9A9 !important;
-	font-family: 'PT Sans', sans-serif !important;
-	text-align: left;
-}
-.emodal.custom-position select,
-.emodal.custom-position textarea {
-	width: 300px;
-}
-.emodal.custom-position input[type=submit] {
-	width: 100px;
-	margin-left: 200px;
-	text-align: center;
-}
-.emodal.custom-position .choise {
-	font-size: 12px !important;
-	font-weight: bold !important;
-	padding-left: 20px;
-	color: #A9A9A9;
-	font-family: 'PT Sans', sans-serif !important;
-}
-.emodal.custom-position span {
-	margin-bottom: 15px;
 }

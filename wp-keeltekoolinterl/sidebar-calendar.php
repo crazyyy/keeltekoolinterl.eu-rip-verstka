@@ -24,5 +24,5 @@
         <?php endwhile; endif; ?>
         <?php wp_reset_query(); ?>
     </ul>
-    <a href="http://keeltekoolinterl.eu/beta2" class="btn btn-large btn-red">СМОТРЕТЬ ВСЕ КУРСЫ</a>
+    <a href="http://keeltekoolinterl.eu/kursy.htm" class="btn btn-large btn-red">СМОТРЕТЬ ВСЕ КУРСЫ</a>
 </div><!-- kalender-nimekiri -->
