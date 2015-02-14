@@ -1,7 +1,7 @@
 <div class="kalender-nimekiri">
     <h3 class="titleArea"><?php the_field('home_header_right_block_title'); ?></h3>
     <ul>
-    <?php query_posts("showposts=3&cat=78"); ?>
+    <?php query_posts("showposts=20&cat=78"); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
         <li>

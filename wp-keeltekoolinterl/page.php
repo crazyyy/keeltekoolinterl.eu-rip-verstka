@@ -24,6 +24,14 @@
         <!-- end .contentArea -->
         <!-- begin .sidebarArea -->
         <div class="sidebarArea">
+            <?php if ( is_active_sidebar('widgetarea2') ) : ?>
+                <?php dynamic_sidebar( 'widgetarea2' ); ?>
+            <?php else : ?>
+         
+                <!-- If you want display static widget content - write code here
+                RU: Здесь код вывода того, что необходимо для статического контента виджетов -->
+         
+            <?php endif; ?>
             <?php get_template_part('sidebar-calendar'); ?>
         </div>            
         <!-- end .sidebarArea -->
